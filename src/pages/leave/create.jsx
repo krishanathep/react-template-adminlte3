@@ -82,7 +82,7 @@ export default function create() {
                       <div className="float-right">
                         <button
                           onClick={() => alert("เพิ่มข้อมูลเรียบแล้วครับ")}
-                          className="btn btn-info btn-flat"
+                          className="btn btn-primary btn-flat"
                         >
                           Submit
                         </button>{" "}

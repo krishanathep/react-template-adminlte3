@@ -61,7 +61,7 @@ export default function eleave() {
           <div className="col-lg-12">
             <div className="card">
               <div className="card-body login-card-body">
-                <Link to={'/leave/create'} className='btn btn-info btn-flat mb-2 float-right'><i className="fas fa-pencil-alt"></i> Leave</Link>
+                <Link to={'/leave/create'} className='btn btn-success btn-flat mb-2 float-right'><i className="fas fa-pencil-alt"></i> Leave</Link>
                 <table className="table table-bordered">
                   <thead>
                     <tr>
@@ -89,7 +89,7 @@ export default function eleave() {
                       </td>
                       <td>
                         <button className='btn btn-primary btn-flat'><i className="fas fa-edit"></i></button>{' '}
-                        <Link to={'/leave/view'} className='btn btn-success btn-flat'><i className="fas fa-eye"></i></Link>{' '}
+                        <Link to={'/leave/view'} className='btn btn-info btn-flat'><i className="fas fa-eye"></i></Link>{' '}
                         <button className='btn btn-danger btn-flat'><i className="fas fa-trash"></i></button>
                       </td>
                     </tr>
